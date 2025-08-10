@@ -73,6 +73,6 @@ describe('ArticlePage class', () => {
 
   it('should contain a "assertPageOpened" method', () => {
     expect(articlePage.assertPageOpened())
-      .toBe(`The ${articlePage.url}is opened`);
+      .toBe(`The ${articlePage.url} is opened`);
   });
 });
